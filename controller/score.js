@@ -1,8 +1,9 @@
 var scoreList = [
-  {id: '1', name:'Alberto Plaza', score:8},
+  {id: '1', name:'Alberto Plaza', score:5},
   {id: '2', name:'Jorge Baradit', score:9},
   {id: '3', name:'Carol Dance', score:10},
   {id: '4', name:'Pedro Fernandez', score:3},
+  {id: '5', name:'Federico Sánchez', score:8}
 ]
 
 const controller = {
