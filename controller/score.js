@@ -41,7 +41,7 @@ const controller = {
   },
 
   createDbScore: async function (request, response) {
-    const { name, score} = request.body
+    const { name, score } = request.body
 
     const newScore = new dbScore({name, score})
     await newScore.save()
